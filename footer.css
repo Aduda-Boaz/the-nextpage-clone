@@ -3,7 +3,7 @@
 }
 
 .foot_down {
-  background-color: #000000;
+  background-color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +65,7 @@ a {
 }
 
 .link {
-  color: #aaaaaa;
+  color: #aaa;
   font-size: 0.7rem;
 }
 

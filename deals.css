@@ -6,10 +6,9 @@
 
 .la-deals {
   font-size: 1.8rem;
-  color: #ff4422;
+  color: #f42;
   padding-left: 1rem;
   font-weight: 600;
-  
 }
 
 .deals {
@@ -17,7 +16,7 @@
 }
 
 .all-deals {
-  color: #ff4422;
+  color: #f42;
   font-size: 1rem;
   padding-right: 1rem;
   padding-top: 0.5rem;
@@ -47,6 +46,7 @@ a {
   color: #aaacb4;
   text-decoration: line-through;
 }
+
 .new-price {
-  color: #555555;
+  color: #555;
 }

@@ -18,7 +18,11 @@
 
 .headline-image {
   padding-left: 1rem;
-  text-shadow: 0 0.1rem black;
+
+}
+
+.make_transperant {
+  background:linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35));
 }
 
 .headline {
@@ -28,26 +32,28 @@
 .text-on-picture {
   position: absolute;
   color: white;
+  z-index: 1;
   top :11rem;
   left: 2rem;
-  
-
 }
 
 .most {
   font-size: 1rem;
 }
 
-.about {
+.about-headline {
   font-size: 1.5rem;
   width: 21rem;
   text-shadow: black 0.1rem 0 1rem;
 }
 
-/* hard to see */
+
 .published {
   color: #828282;
-   text-shadow: white 0.1rem 0 1rem;
-   
-  
+  font-weight: 900;
+  text-shadow: white 0.1rem 0 1rem;
+}
+
+.hand {
+  width: 1rem;
 }

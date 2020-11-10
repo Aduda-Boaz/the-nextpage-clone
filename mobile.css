@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+  .top_nav, .top_nav ul, .navigation_bar {
+    display: none;
+  }
+  .search_icon {
+    display: flex;
+  }
+}

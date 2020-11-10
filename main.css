@@ -75,7 +75,7 @@ a {
 /* Latest News */
 .latest_news {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmx(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmx(180px, 1fr));
   gap: 6px;
 }
 
@@ -85,4 +85,57 @@ a {
   font-size: 28px;
   font-weight: bold;
   color: rgb(255, 68, 34);
+}
+
+/* funding container */
+.funding_rounds {
+  display: grid;
+  gap: 6px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.top-funding {
+  display: flex;
+  justify-content: space-between;
+  grid-column: 1 / -1;
+  font-size: 16px;
+  color: rgb(255, 68, 34);
+}
+
+.top-funding h2 {
+  font-size: 26px;
+}
+
+.top-funding ul {
+  display: flex;
+}
+
+.top-funding li:nth-child(2)::before, .top-funding li:nth-child(2)::after {
+  content: '|';
+  padding: 0 5px;
+}
+
+.new_funding {
+  position: relative;
+  color: rgb(61, 61, 61);
+  background-color: rgb(238, 237, 237);
+}
+
+.new_funding img {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+
+.new_funding h3 {
+  padding: 10px 0 10px calc(60px + 2rem);
+  font-size: 15px;
+  color: #fff;
+  background-color: rgb(255, 68, 34);
+}
+
+.new_funding hgroup {
+  padding: 10px 0 10px calc(60px + 2rem);
+  background-color: rgb(248, 208, 201);
 }

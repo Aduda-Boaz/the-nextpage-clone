@@ -5,4 +5,19 @@
   .search_icon {
     display: flex;
   }
+  .container_news {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px;
+    grid-auto-rows: 250px;
+    gap: 2px;
+  }
+  .latest_news {
+    display: flex;
+  }
+  .latest_news img {
+    max-width: 100px;
+    max-height: 100px;
+    padding-top: 0;
+  }
 }

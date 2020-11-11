@@ -1,3 +1,8 @@
+@media (max-width: 468px) {
+  .headlines {
+    grid-template-columns: repeat(minmax(250px, 1fr));
+  }
+}
 @media (max-width: 768px) {
   .top_nav, .top_nav ul, .navigation_bar {
     display: none;
@@ -37,5 +42,30 @@
   .top-funding li:nth-child(2)::before, .top-funding li:nth-child(2)::after {
     content: '';
     padding: 0;
+  }
+  .headlines {
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  }
+  .container_deals {
+    grid-template-columns: 1fr;
+  }
+  .all_deals {
+    display: flex;
+  }
+  .latest_deals a {
+    font-size: 14px;
+    align-self: center;
+  }
+  .img_deals {
+    width: 100px;
+    height: 60px;
+    padding: 0;
+  }
+  .all_deals h5 {
+    padding: 0 0 5px 0;
+    font-size: 14px;
+  }
+  .latest_deals .all_deals {
+    padding-left: 10px;
   }
 }

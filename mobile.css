@@ -20,4 +20,22 @@
     max-height: 100px;
     padding-top: 0;
   }
+  .funding_rounds {
+    grid-template-columns: 1fr;
+  }
+  .top-funding {
+    flex-direction: column;
+    justify-content: initial;
+  }
+  .top-funding ul {
+    flex-direction: column;
+    font-size: 13px;
+  }
+  .top-funding li:nth-child(2) {
+    padding: 3px 0;
+  }
+  .top-funding li:nth-child(2)::before, .top-funding li:nth-child(2)::after {
+    content: '';
+    padding: 0;
+  }
 }

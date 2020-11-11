@@ -48,6 +48,7 @@
   }
   .container_deals {
     grid-template-columns: 1fr;
+    grid-row-gap: 3px;
   }
   .all_deals {
     display: flex;
@@ -67,5 +68,11 @@
   }
   .latest_deals .all_deals {
     padding-left: 10px;
+  }
+  .all_rights {
+    display: block;
+  }
+  .all_rights p:nth-child(2) {
+    padding: 5px 0;
   }
 }

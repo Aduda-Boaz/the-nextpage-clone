@@ -37,6 +37,14 @@ a {
   background-repeat: no-repeat;
 }
 
+.search_icon {
+  background-image: url('./assets/search.png');
+}
+
+.menu_icon {
+  background-image: url('./assets/menu.png');
+}
+
 .tag {
   background-image: url('./assets/tag-icon.png');
 }
@@ -47,6 +55,38 @@ a {
 
 .search_icon {
   background-image: url('assets/search.png');
+}
+
+.facebook {
+  background-image: url('./assets/facebook-square.svg');
+}
+
+.twitter {
+  background-image: url('./assets/icon-twitter.svg');
+}
+
+.instagram {
+  background-image: url('./assets/instagram_icon.png');
+}
+
+.youtube {
+  background-image: url('./assets/youtube.png');
+}
+
+.pinterest {
+  background-image: url('./assets/pinterest.png');
+}
+
+.feed {
+  background-image: url('./assets/feed.svg');
+}
+
+.email {
+  background-image: url('./assets/mail-5.svg');
+}
+
+.logo-small {
+  background-image: url('./assets/logo-small.png');
 }
 
 .top_nav, .top_nav ul, .navigation_bar, .navigation_bar ul {
@@ -76,7 +116,7 @@ a {
 }
 
 .author {
-  font-size: small;
+  font-size: 400;
   color: rgb(223, 217, 217);
 }
 
@@ -99,6 +139,7 @@ a {
 .funding_rounds {
   display: grid;
   grid-column-gap: 3px;
+  margin: 20px 10px 20px 10px;
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -200,6 +241,7 @@ a {
   display: grid;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
+  margin: 20px 10px 20px 10px;
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -286,7 +328,9 @@ a {
 
 .container_deals {
   display: grid;
-  grid-column-gap: 10px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  margin: 20px 10px 20px 10px;
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -328,4 +372,55 @@ a {
 
 .deals_header {
   margin-left: 8px;
+}
+
+.footer_icons {
+  font-size: 12px;
+  padding: 20px 0;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  color: rgb(214, 214, 214);
+  background-color: rgb(15, 15, 15);
+}
+
+.footer_icons ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+}
+
+.footer_icons li {
+  margin: 0 5px;
+}
+
+.footer_icons ul:first-of-type {
+  margin-bottom: 6px;
+}
+
+.footer_icons ul:first-of-type li {
+  padding: 10px;
+  width: 1.7rem;
+  height: 1.7rem;
+  background-color: rgb(192, 190, 190);
+  border-radius: 50%;
+}
+
+.all_rights {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+  background: black;
+}
+
+.all_rights .icons {
+  display: inline-block;
+}
+
+.logo-small {
+  width: 5rem;
+  height: 2rem;
 }

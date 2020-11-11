@@ -30,11 +30,19 @@ a {
 
 .icons {
   display: block;
-  width: 5rem;
-  height: 5rem;
+  width: 1.3rem;
+  height: 1.3rem;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.tag {
+  background-image: url('./assets/tag-icon.png');
+}
+
+.briefcase {
+  background-image: url('./assets/briefcase.svg');
 }
 
 .search_icon {
@@ -90,7 +98,7 @@ a {
 /* funding container */
 .funding_rounds {
   display: grid;
-  gap: 6px;
+  grid-column-gap: 3px;
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -118,7 +126,8 @@ a {
 .new_funding {
   position: relative;
   color: rgb(61, 61, 61);
-  background-color: rgb(238, 237, 237);
+  margin-bottom: 2px;
+  background-color: rgba(245, 236, 236, 0.3);
 }
 
 .new_funding img {
@@ -149,4 +158,59 @@ a {
   font-size: 12px;
   font-weight: 400;
   color: rgb(104, 102, 102);
+}
+
+.tag_icons, .describe {
+  padding: 15px 10px;
+}
+
+.tag_icons {
+  margin-bottom: 10px;
+  font-size: 12px;
+  border-bottom: 1px solid rgba(246, 129, 109, 0.36);
+}
+
+.tag_icons li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.tag_icons li:last-of-type {
+  margin-bottom: 0;
+}
+
+.tag_icons li .icons {
+  margin-right: 6px;
+}
+
+.describe {
+  padding-top: 0;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.describe a {
+  color: #997;
+}
+
+/* popular headlines */
+
+.headlines {
+  display: grid;
+  grid-column-gap: 4px 2px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.headline h2 {
+  padding-bottom: 5px;
+  font-size: 28px;
+  color: rgb(255, 64, 34);
+}
+
+.most_popular {
+  position: relative;
+  padding-top: 75%;
+  background-position: center;
+  background-size: cover;
 }

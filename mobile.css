@@ -40,6 +40,9 @@
     height: 80px;
     padding: 0;
   }
+  .latest_header {
+    margin-left: 10px;
+  }
 
   .funding_rounds {
     grid-template-columns: 1fr;
@@ -97,7 +100,11 @@
   .recent_recent_news {
     grid-row: 1 / span 2;
   }
+  .menu_icon {
+    display: none;
+  }
 }
+
 
 @media (min-width: 1024px) {
   .navigation_top {

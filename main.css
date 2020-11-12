@@ -102,6 +102,10 @@ a {
   align-items: center;
 }
 
+.top_nav .left_side {
+  justify-content: space-between;
+}
+
 .top_nav li {
   margin: 0 8px 0 0;
 }
@@ -110,6 +114,10 @@ a {
   display: flex;
   background-color: black;
   color: #fff;
+}
+
+.hide_formobile li {
+  margin: 8px 10px 0 0;
 }
 
 .logo-mobile img {
@@ -171,7 +179,12 @@ a {
 
 /* Latest News */  
 .latest_container {
+  max-width: 1128px;
   margin: 20px 10px 20px 10px;
+}
+
+.latest_container * {
+  margin-bottom: 10px;
 }
 
 .most_news {
@@ -193,7 +206,7 @@ a {
   font-size: 16px;
 }
 
-.latest-news-header {
+.most_header {
   margin-top: 10px;
   font-size: 28px;
   font-weight: bold;

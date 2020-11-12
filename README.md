@@ -1,4 +1,4 @@
-# Project Name
+# The-Next-Web-Clone
 
 > This is a Microverse project assignment to build a clone of The Next Web.
 

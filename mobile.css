@@ -4,11 +4,21 @@
   }
 }
 @media (max-width: 768px) {
-  .top_nav, .top_nav ul, .navigation_bar {
+  .top_nav, .top_nav ul, .hide_formobile a {
     display: none;
   }
-  .search_icon {
+  .main-navigation {
     display: flex;
+  }
+  .navigation_top {
+    background-color: #fff;
+  }
+  .navigation_bar li:last-of-type {
+    display: flex !important;
+  }
+  .main-navigation {
+    padding: 5px 10px;
+    justify-content: space-between;
   }
   .container_news {
     display: grid;
@@ -17,14 +27,20 @@
     grid-auto-rows: 250px;
     gap: 2px;
   }
-  .latest_news {
+
+   /* Latest news */
+   .most_news {
+     grid-template-columns: 1fr;
+   }
+   .latest_news  {
     display: flex;
   }
-  .latest_news img {
-    max-width: 100px;
-    max-height: 100px;
-    padding-top: 0;
+  .latest_news li {
+    width: 80px;
+    height: 80px;
+    padding: 0;
   }
+
   .funding_rounds {
     grid-template-columns: 1fr;
   }
@@ -77,6 +93,17 @@
   }
 }
 
-@media (max-width: 1024px) {
-  
+@media (min-width: 769px) {
+  .recent_recent_news {
+    grid-row: 1 / span 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navigation_top {
+    height: 50px;
+  }
+  .logo-mobile {
+    display: none;
+  }
 }

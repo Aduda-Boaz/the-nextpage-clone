@@ -57,6 +57,10 @@ a {
   background-image: url('assets/search.png');
 }
 
+.logo_large {
+  background-image: url('./assets/tnw-the-next-web-vector-logo-2.png');
+}
+
 .facebook {
   background-image: url('./assets/facebook-square.svg');
 }
@@ -94,33 +98,36 @@ a {
   align-items: center;
 }
 
+.top_nav li {
+  margin: 0 8px 0 0;
+}
+
+.navigation_top {
+  display: flex;
+  background-color: black;
+  color: #fff;
+}
+
 .logo-mobile img {
   width: 90px;
   height: 45px;
 }
 
+/* Recent news container */
 .container_news {
   display: grid;
-  color: white;
+  grid-template-columns: 60% 40%;
+  grid-column-gap: 6px;
+  margin: 2px 5px;
+  color: #fff;
 }
 
-.recent_news {
-  margin-top: 100px;
-  margin-left: 10px;
-  font-size: 18px;
+.recent_recent_news {
+  position: relative;
+  grid-row: 1 / span 2;
 }
 
-.recent_news h3 {
-  font-size: medium;
-  margin-bottom: 4px;
-}
-
-.author {
-  font-size: 400;
-  color: rgb(223, 217, 217);
-}
-
-/* Latest News */
+/* Latest News */ 
 .latest_news {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmx(180px, 1fr));
@@ -373,6 +380,8 @@ a {
 .deals_header {
   margin-left: 8px;
 }
+
+/* footer container */
 
 .footer_icons {
   font-size: 12px;

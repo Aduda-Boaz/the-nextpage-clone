@@ -115,6 +115,9 @@ a {
   background-color: black;
   color: #fff;
 }
+.navigation_bar {
+  justify-content: space-between;
+}
 
 .hide_formobile li {
   margin: 8px 10px 0 0;
